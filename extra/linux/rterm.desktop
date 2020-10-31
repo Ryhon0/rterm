@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Exec=rterm
+Terminal=false
+Hidden=false
+Name=RTerm
+Icon=terminal
+Categories=Development; System
+Comment=Crossplatform multi-tab terminal
+Actions=Newterminal;
+
+#[Desktop Action Newterminal]
+#Exec=rterm newterm
+#Name=New terminal

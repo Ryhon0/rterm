@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/rterm
+rterm.so
+rterm.dylib
+rterm.dll
+rterm.a
+rterm.lib
+rterm-test-*
+*.exe
+*.o
+*.obj
+*.lst
+
+dub_platform_probe_*

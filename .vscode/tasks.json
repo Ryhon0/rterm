@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dub",
+			"run": false,
+			"buildType": "debug",
+			"configuration": "application",
+			"_generated": true,
+			"problemMatcher": [
+				"$dmd"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "build",
+			"detail": "dub build"
+		}
+	]
+}
