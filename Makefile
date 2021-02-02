@@ -1,14 +1,14 @@
 all: publish
 
 compile:
-	dub build --build=debug
+	dub build --compiler=gdc
 
 publish:
-	dub build --build=release
+	dub build --build=release --compiler=gdc
 
 run: compile
-	dub run
-	
+	dub run --compiler=gdc
+	 
 clean:
 	dub clean
 	rm -rf rterm rterm.exe dub_platform_probe_*

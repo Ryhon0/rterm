@@ -1,6 +1,9 @@
 # Building
+## Build dependencies
+To build RTerm you will need the following dependencies:  
+`gdc (gcc-d) dub`
 ## Dependencies
-To build RTerm you will need the following libraries:  
+You need the following dependencies to run rterm:  
 `gtk3 vte3 yajl`
 
 ## Compiling
